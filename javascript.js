@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const random = getRandomInt(1, 151)
     fetchData(random)
 })
-
+/*
 elboton = document.getElementById('boton-actualizar');
 elboton.addEventListener("click",  ()=>{
     const aleatorio = getRandomInt(1, 151)
     fetchData(aleatorio)})
-
+*/
 
 const getRandomInt = (min, max)=>{
     return Math.floor(Math.random()* (max - min)) + min;
