@@ -12,8 +12,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <main class="flex">
+
+    <header class="header">
+
+        <h2 class="titulo-header">Pokeweb</h2>
+        <p class="parrafo-header">Este es un sitio web en donde podras mirar a tu Pokemon favorito</p>
+
+    </header>
+
+    <main class="flex"></main>
+
+    <template id="template-card">
         <article class="card"> 
             
             <img src="./img/bg-pattern-card.svg" alt="imagen header card" class="card-header">
@@ -47,8 +56,11 @@
                 </div>
             </div>
         </article>
-    </main>
+    </template>
 
+    <button id="boton-actualizar">Mirar nuevo pokemon</button>
+
+    <script src="javascript.js"></script>
 
 </body>
 </html>
